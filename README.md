@@ -4,7 +4,7 @@
 
 We are all about annotating/marking up engineering/construction/architecture documents, collaboratively, in real-time, across multiple devices.
 
-We think this test, which is based on an actual issue we have had to deal with, should give us an idea of how you solve problems as well as give you an idea regarding the sort of challenges you will face working for us.
+We think this test, which is based on an actual issue we have had to deal with, should give us an idea of how you solve problems as well as give you an idea regarding the sort of challenges you will face working with us.
 
 ## Brief
 
