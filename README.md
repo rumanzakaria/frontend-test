@@ -18,13 +18,14 @@ We have provided you with a couple important things:
 Even though the annotations are rendering in the correct location, they are sort of stretched and not looking like they should. We want you to make them look like the [provided picture]((https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like)) by completeing the following steps.
 
 ## What you need to do
+
+> NOTE: You can use/import any files already present in the `./src` directory as you please, just remember you can only add/modify files in the `./src/Annotation` directory
+
 - [ ] Fork the repo to your own github account
 - [ ] Make the annotations look like the [provided image]((https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like))
 - [ ] Only modify/add files in the [`./src/Annotation` directory](https://github.com/DrawboardLtd/frontend-test/tree/master/src/Annotation)
 - [ ] Dont add/use any additional libraries (No d3, three.js, paper, etc), you shouldnt need them.
 - [ ] Send us a link to your fork when you are ready for us to review
-
-> NOTE: You can use/import any files already present in the `./src` directory as you please, just remember you can only add/modify files in the `./src/Annotation` directory
 
 ## Getting things running
 
