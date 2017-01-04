@@ -9,15 +9,17 @@
 *
 *   -------------------------------------
 *
-*   import xform from "./xform_point"
+*   import xform_point from "./xform_point"
 *
-*   xform([1,0,0,1,5,6])({ x:3, y:1, type:"M" })
+*   var xform = xform_point([1,0,0,1,5,6])
+*   
+*   xform({ x:3, y:1, type:"M" })
 *   // { x:8, y:7, type:"M" }
 *
-*   xform([1,0,0,1,5,6])({ x:3, y:1, type:"L" })
+*   xform({ x:3, y:1, type:"L" })
 *   // { x:8, y:7, type:"L" }
 *
-*   xform([1,0,0,1,5,6])({ type:"Z" })
+*   xform({ type:"Z" })
 *   // { type:"Z" }
 *
 *   -------------------------------------
