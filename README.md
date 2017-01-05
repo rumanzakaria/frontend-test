@@ -15,7 +15,7 @@ We have provided you with a couple important things:
 - [An Annotation component to render the api data](https://github.com/DrawboardLtd/frontend-test/blob/master/src/Annotation/index.js)
 - [What the annotations should look like](https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like)
 
-When you start up the react app you will notice that the annotations are sort of stretch and not looking like the [provided picture](https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like). This is because we are applying the transformation matrix to the shapes as a whole after the fact instead of individually to the data that represents the parts of the shape before it is rendered on the screen.
+When you start up the react app you will notice that the annotations are sort of stretched and not looking like the [provided picture](https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like). This is because we are applying the transformation matrix to the shapes as a whole after the fact (transform attribute on the path element) instead of individually to the data that represents the shape before it is rendered on the screen.
 
 **We would like you to make the annotations render correctly ([they should look like this](https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like))**
 
