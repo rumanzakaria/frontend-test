@@ -1,8 +1,8 @@
 export const head   = ([a])      => a
 export const tail   = ([, ...t]) => t
 export const empty  = (arr=[])   => !arr.length
-export const bind   = (val, fns=[]) => fns.reduce(apply, val)
 export const apply  = (a, b) => b(a)
+export const bind   = (val, fns=[]) => fns.reduce(apply, val)
 
 export const zip = (l1=[], l2=[], fn=(...ab)=>ab, result=[]) =>
   (empty(l1) || empty(l2))

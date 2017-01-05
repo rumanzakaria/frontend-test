@@ -39,11 +39,18 @@ $ yarn
 
 // Start Dev Environment
 $ yarn start
+
+// Run Tests
+$ yarn test
 ```
 
 ## What the annotations should look like
 
 ![Expected Outcome](https://raw.githubusercontent.com/DrawboardLtd/frontend-test/master/expected.png)
+
+## What the annotations currently look like
+
+![Expected Outcome](https://raw.githubusercontent.com/DrawboardLtd/frontend-test/master/current.png)
 
 ## Recommended reading
 
