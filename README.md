@@ -15,9 +15,11 @@ We have provided you with a couple important things:
 - [An Annotation component to render the api data](https://github.com/DrawboardLtd/frontend-test/blob/master/src/Annotation/index.js)
 - [What the annotations should look like](https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like)
 
-Even though the annotations are rendering in the correct location, they are sort of stretched and not looking like they should. We want you to make them look like the [provided picture]((https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like)) by completeing the following steps.
+When you start up the react app you will notice that the annotations are sort of stretch and not looking like the [provided picture](https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like). This is because we are applying the transformation matrix to the shapes as a whole after the fact instead of individually to the data that represents the parts of the shape before it is rendered on the screen.
 
-## What you need to do
+**We would like you to make the annotations render correctly ([they should look like this](https://github.com/DrawboardLtd/frontend-test#what-the-annotations-should-look-like))**
+
+## How to pass the test
 
 > NOTE: You can use/import any files already present in the `./src` directory as you please, just remember you can only add/modify files in the `./src/Annotation` directory
 
