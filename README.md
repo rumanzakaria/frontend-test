@@ -44,7 +44,7 @@ $ yarn start
 $ yarn test
 ```
 
-> NOTE: the test runner will any files that that end in `*.test.js` that are found in the `./src` directory. Some example tests can be found in the [`./src/__lib__` directory](https://github.com/DrawboardLtd/frontend-test/tree/master/src/__lib__)
+> NOTE: the test runner will any files that that end in `*.test.js` that are found in the `./src` directory. Some example tests can be found in the [`./src/__lib__` directory](https://github.com/DrawboardLtd/frontend-test/tree/master/src/__lib__). We are using [Jest](https://facebook.github.io/jest/docs/api.html#content) for our tests at Drawboard and in this test.
 
 ## What the annotations should look like
 
